@@ -1,0 +1,377 @@
+
+body {
+    background: #526d9b none repeat scroll 0 0;
+    font-family: tahoma;
+    font-size: 12px;
+}
+.wrapper {
+    margin-top: 20px;
+}
+.right {
+    float: right;
+}
+figure {
+    margin: 0 0 10px;
+    padding: 0;
+}
+figure img {
+    max-width: 100%;
+    min-height: 100px;
+}
+#header .top {
+    margin-bottom: 20px;
+    position: relative;
+}
+#header .top .form-inline {
+    font-size: 12px;
+}
+#header .top .form-inline {
+    color: #fff;
+    margin-left: 30px;
+}
+#header .top .form-inline{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+#header .top form .form-group {
+    margin-right: 20px;
+}
+#header .top form .form-group input {
+    color: #000;
+    line-height: 10px;
+    max-height: 25px;
+    max-width: 120px;
+    padding: 0 10px;
+}
+#header .top form .btn-default {
+    background: #d3e4a6 none repeat scroll 0 0;
+    border-radius: 0;
+    font-weight: normal;
+    padding: 1px 15px;
+    text-shadow: none;
+}
+#main-nav {
+    background: #d3e4a6 url("../images/mItemBack.gif") repeat-x scroll center bottom;
+    border: 5px solid #7d8da9;
+    min-height: 25px;
+}
+#main-nav .navbar-nav > .open > a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: none;
+}
+#menu ul.l1 li.l1 {
+    border-right: 1px solid #e97051;
+}
+#menu ul.l1 li.l1 a {
+    color: #000;
+    padding: 7px 10px 11px;
+    text-shadow: none;
+}
+#menu ul.l1 li.l1 a.dropdown-toggle {
+}
+#menu ul.l2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(250, 255, 238, 0.63) none repeat scroll 0 0;
+    border-color: -moz-use-text-color rgba(255, 255, 255, 0.81) rgba(255, 255, 255, 0.81);
+    border-image: none;
+    border-radius: 0;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    font-size: 12px;
+}
+#body {
+    margin-bottom: 20px;
+}
+#body .container {
+    background: #8291ac none repeat scroll 0 0;
+    padding: 5px;
+}
+#body .row > .home i {
+    color: #b82323;
+    font-size: 40px;
+}
+#body .row > .home span {
+    color: #ffae41;
+    font-size: 20px;
+    font-weight: bold;
+}
+#body .row > header {
+    border-bottom: 5px solid #293955;
+    margin-bottom: 10px;
+}
+#home .title {
+    color: #a10000;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#home {
+    background: #ebebeb none repeat scroll 0 0;
+    margin: 0;
+    padding: 10px;
+}
+#content {
+}
+#content .list_news {
+    border-bottom: 5px solid #e5eecf;
+    margin-bottom: 10px;
+}
+#content .list_news .title {
+}
+#content .list_news ul.list {
+    color: blue;
+    padding: 10px;
+}
+#content .list_news li.list {
+    list-style: outside none none;
+    margin-bottom: 20px;
+}
+#content .list_news li.list i.time {
+    border-right: 4px solid #804040;
+    float: left;
+    font-size: 14px;
+    font-style: initial;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+#content .list_news li.list div.link {
+    float: left;
+}
+#content .list_news li.list a.link {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+#content a {
+    color: blue;
+}
+#content .list_news li.list .description {
+    font-size: 12px;
+}
+#hot_news {
+    border: 1px solid #808080;
+    padding: 10px;
+}
+#hot_news .title {
+    margin-bottom: 10px;
+}
+#hot_news .list_news {
+    padding: 10px;
+}
+#hot_news ul.list_news li.link {
+    border-left: 4px solid #804040;
+    list-style: outside none none;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+#hot_news ul.list_news li.link:last-child {
+    margin-bottom: 20px;
+}
+#hot_news ul.list_news li.link i {
+    margin-right: 10px;
+}
+#hot_news ul.list_news li.link a {
+    color: blue;
+}
+#form-login {
+    border: 1px solid #aa9797;
+    float: none;
+    height: 300px;
+    margin: 30px auto auto;
+    position: relative;
+}
+#form-login > div {
+    float: none;
+    margin: 20px auto;
+}
+#form-login > .title {
+    background: #ebebeb none repeat scroll 0 0;
+    color: #333;
+    float: none;
+    left: 30%;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: -10px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    list-style: outside none none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#form-login button {
+    float: right;
+}
+#form-login label {
+    text-align: left;
+}
+#list_table {
+    background: #ebebeb none repeat scroll 0 0;
+    margin: 0;
+    padding: 10px;
+}
+#list_table .table_detail .title {
+    background-color: #afc185;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 8px;
+    text-align: center;
+}
+#list_table .detail .semester {
+    float: left;
+    margin-right: 10px;
+}
+#list_table .detail .semester form {
+    float: left;
+    margin-right: 10px;
+}
+#list_table .detail .semester form select {
+    height: 25px;
+    padding: 0 10px;
+}
+#list_table .detail .semester p {
+    font-weight: bold;
+    line-height: 25px;
+}
+#list_table .detail .resgiter {
+    line-height: 25px;
+}
+#list_table .detail .resgiter label {
+    /* margin-right: 10%; */
+}
+#list_table .detail .resgiter input {
+    height: 25px;
+    padding: 0 10px;
+}
+#list_table .detail .resgiter button {
+    background: #e5eecf none repeat scroll 0 0;
+    border: 1px solid #afc185;
+    border-radius: 0;
+    height: 25px;
+    padding: 0 20px;
+    text-align: center;
+}
+#body .container .row table {
+    background: #fff none repeat scroll 0 0;
+}
+th {
+    font-weight: normal;
+}
+#body .container .row table thead {
+    background: #9cc525 none repeat scroll 0 0;
+    color: #fff;
+}
+#footer {
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+#footer .row {
+    background: #7d8da9 none repeat scroll 0 0;
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+}
+#footer .row .title {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#footer .row .name {
+    color: #7f0022;
+    margin-bottom: 10px;
+}
+
+
+/*căn khoảng cách*/
+.ml{    
+    width:87px;
+    height:14px;
+
+}
+.mhp{   
+    width:143px;
+    height:14px;
+
+}
+.thp{   
+    width:151px;
+    height:14px;
+
+}
+.gc{    
+    width:239px;
+    height:14px;
+
+}
+.l{ 
+    width:87px;
+    height:14px;
+
+}
+.tt{    
+    width:134px;
+    height:14px;
+
+}
+.md{    
+    width:94px;
+    height:14px;
+
+}
+.dd{    
+    width:82px;
+    height:14px;
+
+}
+.kv{    
+    width:152px;
+    height:14px;
+
+}
+.tl{    
+    width:350px;
+    height:14px;
+
+}
+.cb{    
+    width:20px;
+    height:14px;
+
+}
+.c1{    
+    width:970px;
+    height:14px;
+
+}
+.c2{    
+    width:450px;
+    height:14px;
+
+}
+.c3{    
+    width:1050px;
+    height:14px;
+
+}
+.cn{    
+    width:50px;
+    height:14px;
+
+}
+.mt{    
+    width:115px;
+    height:14px;
+
+}
+
+

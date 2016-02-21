@@ -1,0 +1,120 @@
+a:link ,
+a:active{
+	color:#025A8D;
+	text-decoration:none;
+}
+a:visited {
+	color:#333;
+}
+a:hover {
+	color:#025A8D;
+	text-decoration:underline;
+}
+*{
+  -webkit-box-sizing:border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing:border-box;    /* Firefox, other Gecko */
+  box-sizing:border-box;         /* Opera/IE 8+ */
+}
+body{
+	font-family:Arial;
+	font-size:13px;
+	color:#000;
+}
+/* ================ HEADER =================== */
+header{
+	height:168px;
+}
+/* ================ ITQ-WRAPPER =================== */
+section.itq-wrapper{
+	width:390px;
+	margin:0px auto;
+}
+section.itq-wrapper form{
+}
+section.itq-wrapper form fieldset{
+	padding:20px 15px 0px 15px;
+}
+section.itq-wrapper form fieldset legend{
+	text-transform:uppercase;
+	font-weight:bold;
+	white-space:nowrap;
+}
+section.itq-wrapper form fieldset label{
+	display:block;
+	margin:0px 0px 10px 0px;
+	overflow:hidden;
+}
+section.itq-wrapper form fieldset label p{
+	float:left;
+	margin:0px;
+	width:168px;
+}
+section.itq-wrapper form fieldset label input{
+	width:168px;
+	padding:3px 5px;
+	float:right;
+}
+section.itq-wrapper form fieldset label .imgCaptcha{
+	float: right;
+	margin: 0px 10px 0px 0px;
+	width: 68px;
+}
+section.itq-wrapper form fieldset label .txtCaptcha{
+	width:90px;
+}
+section.itq-wrapper form fieldset section{
+	text-align:right;
+	padding:15px 0px 0px 0px;
+	margin:0px 0px 15px 0px;
+}
+section.itq-wrapper form fieldset section input{
+	margin:0px 0px 0px 10px;
+	padding:5px 10px;
+}
+section.itq-wrapper form fieldset nav{
+	text-align:right;
+	margin:0px 0px 20px 0px;
+}
+section.itq-wrapper form fieldset nav ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+section.itq-wrapper form fieldset nav ul li{
+	display:inline-block;
+	margin:0px 0px 0px 5px;
+	white-space:nowrap;
+}
+section.itq-wrapper form fieldset nav ul li a{
+}
+section.itq-wrapper form fieldset ul.error{
+	margin:0px 0px 20px 0px;
+	padding:0px;
+	list-style:none;
+	color:red;
+}
+section.itq-wrapper form fieldset ul.error li{
+	margin:5px 0px 5px 0px;
+	color:red;
+}
+/* ================ FOOTER =================== */
+footer{
+	width:390px;
+	margin:0px auto;
+}
+footer p{
+	text-align:right;
+}
+/* ================ OTHER =================== */
+.notification{
+	margin:0px 0px 25px 0px;
+	padding:10px;
+}
+.notification-success{
+	background:#E1F1C0;
+	border:1px solid #92AD5C;
+}
+.notification-error{
+	background:#FFBBBA;
+	border:1px solid #C06361;
+}
